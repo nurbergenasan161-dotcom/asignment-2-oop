@@ -21,7 +21,6 @@ public abstract class Vehicle implements Servicable {
 
     public abstract double calculateInsuranceFee();
 
-    @Override
     public String toString() {
         return id + " | " + model + " | " + year + " | " + basePrice;
     }
